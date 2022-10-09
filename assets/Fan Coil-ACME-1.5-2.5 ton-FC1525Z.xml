@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FamilyInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RevitVersion>2019</RevitVersion>
+  <CategoryId>-2001140</CategoryId>
+  <FamTHash>Va39IcdD6vdv_QMYdlhKog!T2Pytro0RpiyzrKvacsn1w</FamTHash>
+  <LocalPath>C:\USERS\ADMIN\DOCUMENTS\FAN COIL-ACME-1.5-2.5 TON-FC1525Z.RFA</LocalPath>
+  <Host>Non hosted</Host>
+  <PlacementType>OneLevelBased</PlacementType>
+  <Category>Mechanical Equipment</Category>
+  <DisplayUnitSystem>IMPERIAL</DisplayUnitSystem>
+  <Properties>
+    <Parameter Id="-1012833" Numeric="0">No</Parameter>
+    <Parameter Id="-1012808" Numeric="1">Yes</Parameter>
+    <Parameter Id="-1012811" Numeric="0">No</Parameter>
+    <Parameter Id="-1114206" Numeric="0">Normal</Parameter>
+    <Parameter Id="-1152375" Numeric="0">Use Radius</Parameter>
+    <Parameter Id="-1012834" Numeric="0">No</Parameter>
+    <Parameter Id="-1002502">23.75.70.17.27</Parameter>
+    <Parameter Id="-1002503">Fan Coil Units</Parameter>
+    <Parameter Id="-1114399" Numeric="0">No</Parameter>
+    <Parameter Id="-1012843">0</Parameter>
+  </Properties>
+  <Types>
+    <FamilyType Name="FPMBNU018 - 208 v">
+      <Parameters>
+        <Parameter Id="86502">208 V</Parameter>
+        <Parameter Id="87422">1.32 A</Parameter>
+        <Parameter Id="87423">15 A</Parameter>
+        <Parameter Id="86504">0.9</Parameter>
+        <Parameter Id="86500">2</Parameter>
+        <Parameter Id="86520">18000 Btu/h</Parameter>
+        <Parameter Id="86524">0 CFM</Parameter>
+        <Parameter Id="86523">0 CFM</Parameter>
+        <Parameter Id="86501">HVAC</Parameter>
+        <Parameter Id="86503">305.07 VA</Parameter>
+        <Parameter Id="86543">0</Parameter>
+        <Parameter Id="86505">1</Parameter>
+        <Parameter Id="86496">5</Parameter>
+        <Parameter Id="86538">0</Parameter>
+        <Parameter Id="86547">1</Parameter>
+        <Parameter Id="86521">0.08 in-wg</Parameter>
+        <Parameter Id="86522">0 GPM</Parameter>
+        <Parameter Id="86525">0 in-wg</Parameter>
+        <Parameter Id="87614">Paint - Carrier - Gray</Parameter>
+        <Parameter Id="87658">Metal - Carrier - Copper Tube</Parameter>
+        <Parameter Id="87615">Metal - Carrier - Finned</Parameter>
+        <Parameter Id="86498">Plastic - Carrier - Black</Parameter>
+        <Parameter Id="86539">Clearance Zones</Parameter>
+        <Parameter Id="86497">Metal - Carrier - Steel</Parameter>
+        <Parameter Id="86516">37.25</Parameter>
+        <Parameter Id="86515">25.375</Parameter>
+        <Parameter Id="86519">10.25</Parameter>
+        <Parameter Id="86506">70 lb</Parameter>
+        <Parameter Id="-1010104">www.acme.com</Parameter>
+        <Parameter Id="-1010105">208 v - 18 kBtu/h Cooling Capacity</Parameter>
+        <Parameter Id="-1010109">344564723</Parameter>
+        <Parameter Id="-1010108">ACME Inc.</Parameter>
+        <Parameter Id="-1010103">Horizontal Un-Cased Fan Coil</Parameter>
+        <Parameter Id="-1002500">D5217957</Parameter>
+        <Parameter Id="-1152384">&lt;By Category&gt;</Parameter>
+        <Parameter Id="-1140422" />
+        <Parameter Id="-1001205" />
+        <Parameter Id="86513">31"</Parameter>
+        <Parameter Id="86512">7"</Parameter>
+        <Parameter Id="88053">0.91</Parameter>
+        <Parameter Id="87540">5.17</Parameter>
+        <Parameter Id="86549">18.625</Parameter>
+        <Parameter Id="86550">12.875</Parameter>
+        <Parameter Id="87536">3.5</Parameter>
+        <Parameter Id="87535">5</Parameter>
+        <Parameter Id="86546">0.5</Parameter>
+        <Parameter Id="86545">9.625</Parameter>
+        <Parameter Id="86548">1.25</Parameter>
+        <Parameter Id="86499">0.5</Parameter>
+        <Parameter Id="86526">0</Parameter>
+        <Parameter Id="86517">1</Parameter>
+        <Parameter Id="86507">12.688</Parameter>
+        <Parameter Id="86531">0</Parameter>
+        <Parameter Id="86530">0</Parameter>
+        <Parameter Id="86529">0</Parameter>
+        <Parameter Id="86528">0</Parameter>
+        <Parameter Id="86527">0</Parameter>
+        <Parameter Id="86542">3/4"</Parameter>
+        <Parameter Id="86514">0.188</Parameter>
+        <Parameter Id="86518">3/8"</Parameter>
+        <Parameter Id="86552">5.125</Parameter>
+        <Parameter Id="86551">13.5</Parameter>
+        <Parameter Id="86508">3/16"</Parameter>
+        <Parameter Id="86510">3/8"</Parameter>
+        <Parameter Id="86540">0.388</Parameter>
+        <Parameter Id="86509">3/8"</Parameter>
+        <Parameter Id="86511">3/4"</Parameter>
+        <Parameter Id="86541">0.575</Parameter>
+        <Parameter Id="87437">1.575</Parameter>
+        <Parameter Id="86532">0</Parameter>
+        <Parameter Id="86535">0</Parameter>
+        <Parameter Id="86534">0</Parameter>
+        <Parameter Id="86536">0</Parameter>
+        <Parameter Id="86533">0</Parameter>
+        <Parameter Id="86537">0</Parameter>
+        <Parameter Id="86544">90°</Parameter>
+      </Parameters>
+    </FamilyType>
+  </Types>
+  <Parameters>
+    <ParameterInfo Name="Air Pressure Drop" Id="86525">
+      <Group>PG_MECHANICAL</Group>
+      <Type>HVACPressure</Type>
+      <Storage>Double</Storage>
+      <Unit>Inches of water (60 °F)</Unit>
+      <Instance>true</Instance>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Always vertical" Id="-1012808">
+      <BuiltinID>FAMILY_ALWAYS_VERTICAL</BuiltinID>
+      <Type>YesNo</Type>
+      <Storage>Integer</Storage>
+    </ParameterInfo>
+    <ParameterInfo Name="Angle 1" Id="86544">
+      <Type>Angle</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal degrees</Unit>
+      <Instance>true</Instance>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Apparent Load" Id="86503">
+      <Group>PG_ELECTRICAL_LOADS</Group>
+      <Type>ElectricalApparentPower</Type>
+      <Storage>Double</Storage>
+      <Unit>Volt-amperes</Unit>
+      <FormulaDetermined>true</FormulaDetermined>
+      <CanAssignFormula>true</CanAssignFormula>
+      <Formula>Voltage * Minimum Circuit Amps / Power Factor</Formula>
+    </ParameterInfo>
+    <ParameterInfo Name="Assembly Code" Id="-1002500">
+      <BuiltinID>UNIFORMAT_CODE</BuiltinID>
+      <Group>PG_IDENTITY_DATA</Group>
+      <Type>Text</Type>
+      <Storage>String</Storage>
+    </ParameterInfo>
+    <ParameterInfo Name="Body Material" Id="86497">
+      <Group>PG_MATERIALS</Group>
+      <Type>Material</Type>
+      <Storage>ElementId</Storage>
+    </ParameterInfo>
+    <ParameterInfo Name="Clearance Back" Id="86537">
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Clearance Bottom" Id="86533">
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Clearance Front" Id="86536">
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Clearance Left" Id="86534">
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Clearance Material" Id="86539">
+      <Group>PG_MATERIALS</Group>
+      <Type>Material</Type>
+      <Storage>ElementId</Storage>
+    </ParameterInfo>
+    <ParameterInfo Name="Clearance Right" Id="86535">
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Clearance Top" Id="86532">
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Clearance Zones" Id="86538">
+      <Group>PG_CONSTRAINTS</Group>
+      <Type>YesNo</Type>
+      <Storage>Integer</Storage>
+      <Instance>true</Instance>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Controls Y Offset" Id="87437">
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Cooling Capacity" Id="86520">
+      <Group>PG_ENERGY_ANALYSIS</Group>
+      <Type>HVACCoolingLoad</Type>
+      <Storage>Double</Storage>
+      <Unit>BTU (British Thermal Units) per hour</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Cost" Id="-1001205">
+      <BuiltinID>DOOR_COST</BuiltinID>
+      <Group>PG_IDENTITY_DATA</Group>
+      <Type>Currency</Type>
+      <Storage>Double</Storage>
+      <Unit>Currency</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Cut with Voids When Loaded" Id="-1012811">
+      <BuiltinID>FAMILY_ALLOW_CUT_WITH_VOIDS</BuiltinID>
+      <Type>YesNo</Type>
+      <Storage>Integer</Storage>
+    </ParameterInfo>
+    <ParameterInfo Name="Depth" Id="86515">
+      <Group>PG_GEOMETRY</Group>
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Description" Id="-1010103">
+      <BuiltinID>ALL_MODEL_DESCRIPTION</BuiltinID>
+      <Group>PG_IDENTITY_DATA</Group>
+      <Type>Text</Type>
+      <Storage>String</Storage>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Drain Body Radius" Id="86499">
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+      <Formula>Drain Radius + 0.125"</Formula>
+    </ParameterInfo>
+    <ParameterInfo Name="Drain Diameter" Id="86542">
+      <Type>PipeSize</Type>
+      <Storage>Double</Storage>
+      <Unit>Fractional inches</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+      <Formula>Drain Radius * 2</Formula>
+    </ParameterInfo>
+    <ParameterInfo Name="Drain Flow" Id="86522">
+      <Group>PG_MECHANICAL</Group>
+      <Type>PipingFlow</Type>
+      <Storage>Double</Storage>
+      <Unit>US gallons per minute</Unit>
+      <Instance>true</Instance>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Drain Radius" Id="86518">
+      <Type>PipeSize</Type>
+      <Storage>Double</Storage>
+      <Unit>Fractional inches</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Drain X Offset" Id="86548">
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <Instance>true</Instance>
+      <FormulaDetermined>true</FormulaDetermined>
+      <CanAssignFormula>true</CanAssignFormula>
+      <Formula>if(Left Drain, 1.25", Width - 1.25")</Formula>
+    </ParameterInfo>
+    <ParameterInfo Name="Drain Y Offset" Id="86545">
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Drain Z Offset" Id="86546">
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Drop Rod Radius" Id="86514">
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="DX Gas Body Radius" Id="86541">
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+      <Formula>DX Gas Radius + 0.2"</Formula>
+    </ParameterInfo>
+    <ParameterInfo Name="DX Gas Diameter" Id="86511">
+      <Type>PipeSize</Type>
+      <Storage>Double</Storage>
+      <Unit>Fractional inches</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+      <Formula>DX Gas Radius * 2</Formula>
+    </ParameterInfo>
+    <ParameterInfo Name="DX Gas Radius" Id="86509">
+      <Type>PipeSize</Type>
+      <Storage>Double</Storage>
+      <Unit>Fractional inches</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="DX Gas Z Offset" Id="86552">
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="DX Liquid Body Radius" Id="86540">
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+      <Formula>DX Liquid Radius + 0.2"</Formula>
+    </ParameterInfo>
+    <ParameterInfo Name="DX Liquid Diameter" Id="86510">
+      <Type>PipeSize</Type>
+      <Storage>Double</Storage>
+      <Unit>Fractional inches</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+      <Formula>DX Liquid Radius * 2</Formula>
+    </ParameterInfo>
+    <ParameterInfo Name="DX Liquid Radius" Id="86508">
+      <Type>PipeSize</Type>
+      <Storage>Double</Storage>
+      <Unit>Fractional inches</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="DX Y Offset" Id="86551">
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="External Static Pressure" Id="86521">
+      <Group>PG_MECHANICAL</Group>
+      <Type>HVACPressure</Type>
+      <Storage>Double</Storage>
+      <Unit>Inches of water (60 °F)</Unit>
+      <Instance>true</Instance>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Fan Radius" Id="87535">
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Fan Void Radius" Id="87536">
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Hanging Bolts" Id="86505">
+      <Group>PG_CONSTRAINTS</Group>
+      <Type>YesNo</Type>
+      <Storage>Integer</Storage>
+      <Instance>true</Instance>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Hanging Height" Id="86496">
+      <Group>PG_CONSTRAINTS</Group>
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <Instance>true</Instance>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Height" Id="86519">
+      <Group>PG_GEOMETRY</Group>
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Highlight Material 1" Id="86498">
+      <Group>PG_MATERIALS</Group>
+      <Type>Material</Type>
+      <Storage>ElementId</Storage>
+    </ParameterInfo>
+    <ParameterInfo Name="Highlight Material 2" Id="87615">
+      <Group>PG_MATERIALS</Group>
+      <Type>Material</Type>
+      <Storage>ElementId</Storage>
+    </ParameterInfo>
+    <ParameterInfo Name="Highlight Material 3" Id="87658">
+      <Group>PG_MATERIALS</Group>
+      <Type>Material</Type>
+      <Storage>ElementId</Storage>
+    </ParameterInfo>
+    <ParameterInfo Name="Host" Id="-1012843">
+      <BuiltinID>FAMILY_HOSTING_BEHAVIOR</BuiltinID>
+      <Group>PG_CONSTRAINTS</Group>
+      <Storage>Integer</Storage>
+      <ReadOnly>true</ReadOnly>
+    </ParameterInfo>
+    <ParameterInfo Name="Inlet Air Flow" Id="86524">
+      <Group>PG_MECHANICAL_AIRFLOW</Group>
+      <Type>HVACAirflow</Type>
+      <Storage>Double</Storage>
+      <Unit>Cubic feet per minute</Unit>
+      <Instance>true</Instance>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Keynote" Id="-1140422">
+      <BuiltinID>KEYNOTE_PARAM</BuiltinID>
+      <Group>PG_IDENTITY_DATA</Group>
+      <Type>Text</Type>
+      <Storage>String</Storage>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Left Drain" Id="86547">
+      <Group>PG_CONSTRAINTS</Group>
+      <Type>YesNo</Type>
+      <Storage>Integer</Storage>
+      <Instance>true</Instance>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Length 1" Id="86549">
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+      <Formula>Width / 2</Formula>
+    </ParameterInfo>
+    <ParameterInfo Name="Length 10" Id="86527">
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <Instance>true</Instance>
+      <FormulaDetermined>true</FormulaDetermined>
+      <CanAssignFormula>true</CanAssignFormula>
+      <Formula>if(Clearance Zones, Clearance Back, 0")</Formula>
+    </ParameterInfo>
+    <ParameterInfo Name="Length 11" Id="86528">
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <Instance>true</Instance>
+      <FormulaDetermined>true</FormulaDetermined>
+      <CanAssignFormula>true</CanAssignFormula>
+      <Formula>if(Clearance Zones, Clearance Left, 0")</Formula>
+    </ParameterInfo>
+    <ParameterInfo Name="Length 12" Id="86529">
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <Instance>true</Instance>
+      <FormulaDetermined>true</FormulaDetermined>
+      <CanAssignFormula>true</CanAssignFormula>
+      <Formula>if(Clearance Zones, Clearance Right, 0")</Formula>
+    </ParameterInfo>
+    <ParameterInfo Name="Length 13" Id="86530">
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <Instance>true</Instance>
+      <FormulaDetermined>true</FormulaDetermined>
+      <CanAssignFormula>true</CanAssignFormula>
+      <Formula>if(Clearance Zones, Clearance Bottom, 0")</Formula>
+    </ParameterInfo>
+    <ParameterInfo Name="Length 14" Id="86531">
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <Instance>true</Instance>
+      <FormulaDetermined>true</FormulaDetermined>
+      <CanAssignFormula>true</CanAssignFormula>
+      <Formula>if(Clearance Zones, Clearance Top, 0")</Formula>
+    </ParameterInfo>
+    <ParameterInfo Name="Length 2" Id="86507">
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+      <Formula>Depth / 2</Formula>
+    </ParameterInfo>
+    <ParameterInfo Name="Length 3" Id="87540">
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <FormulaDetermined>true</FormulaDetermined>
+      <CanAssignFormula>true</CanAssignFormula>
+      <Formula>Height - Fan Radius - 0.08"</Formula>
+    </ParameterInfo>
+    <ParameterInfo Name="Length 4" Id="88053">
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Length 6" Id="86517">
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <Instance>true</Instance>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Length 9" Id="86526">
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <Instance>true</Instance>
+      <FormulaDetermined>true</FormulaDetermined>
+      <CanAssignFormula>true</CanAssignFormula>
+      <Formula>if(Clearance Zones, Clearance Front, 0")</Formula>
+    </ParameterInfo>
+    <ParameterInfo Name="Load Classification" Id="86501">
+      <Group>PG_ELECTRICAL_LOADS</Group>
+      <Type>LoadClassification</Type>
+      <Storage>ElementId</Storage>
+    </ParameterInfo>
+    <ParameterInfo Name="Manufacturer" Id="-1010108">
+      <BuiltinID>ALL_MODEL_MANUFACTURER</BuiltinID>
+      <Group>PG_IDENTITY_DATA</Group>
+      <Type>Text</Type>
+      <Storage>String</Storage>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Maximum Overcurrent Protection" Id="87423">
+      <Group>PG_AELECTRICAL</Group>
+      <Type>ElectricalCurrent</Type>
+      <Storage>Double</Storage>
+      <Unit>Amperes</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Minimum Circuit Amps" Id="87422">
+      <Group>PG_AELECTRICAL</Group>
+      <Type>ElectricalCurrent</Type>
+      <Storage>Double</Storage>
+      <Unit>Amperes</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Model" Id="-1010109">
+      <BuiltinID>ALL_MODEL_MODEL</BuiltinID>
+      <Group>PG_IDENTITY_DATA</Group>
+      <Type>Text</Type>
+      <Storage>String</Storage>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Motor Material" Id="87614">
+      <Group>PG_MATERIALS</Group>
+      <Type>Material</Type>
+      <Storage>ElementId</Storage>
+    </ParameterInfo>
+    <ParameterInfo Name="Number of Poles" Id="86500">
+      <Group>PG_AELECTRICAL</Group>
+      <Type>NumberOfPoles</Type>
+      <Storage>Integer</Storage>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="OmniClass Number" Id="-1002502">
+      <BuiltinID>OMNICLASS_CODE</BuiltinID>
+      <Group>PG_IDENTITY_DATA</Group>
+      <Type>Text</Type>
+      <Storage>String</Storage>
+    </ParameterInfo>
+    <ParameterInfo Name="OmniClass Title" Id="-1002503">
+      <BuiltinID>OMNICLASS_DESCRIPTION</BuiltinID>
+      <Group>PG_IDENTITY_DATA</Group>
+      <Type>Text</Type>
+      <Storage>String</Storage>
+      <ReadOnly>true</ReadOnly>
+    </ParameterInfo>
+    <ParameterInfo Name="Outlet Air Flow" Id="86523">
+      <Group>PG_MECHANICAL_AIRFLOW</Group>
+      <Type>HVACAirflow</Type>
+      <Storage>Double</Storage>
+      <Unit>Cubic feet per minute</Unit>
+      <Instance>true</Instance>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Part Type" Id="-1114206">
+      <BuiltinID>FAMILY_CONTENT_PART_TYPE</BuiltinID>
+      <Group>PG_MECHANICAL</Group>
+      <Storage>Integer</Storage>
+    </ParameterInfo>
+    <ParameterInfo Name="Power Factor" Id="86504">
+      <Group>PG_AELECTRICAL</Group>
+      <Type>Number</Type>
+      <Storage>Double</Storage>
+      <Unit>General</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Power Y Offset" Id="86550">
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Right Drain" Id="86543">
+      <Group>PG_CONSTRAINTS</Group>
+      <Type>YesNo</Type>
+      <Storage>Integer</Storage>
+      <Instance>true</Instance>
+      <FormulaDetermined>true</FormulaDetermined>
+      <CanAssignFormula>true</CanAssignFormula>
+      <Formula>not(Left Drain)</Formula>
+    </ParameterInfo>
+    <ParameterInfo Name="Room Calculation Point" Id="-1114399">
+      <BuiltinID>ROOM_CALCULATION_POINT</BuiltinID>
+      <Type>YesNo</Type>
+      <Storage>Integer</Storage>
+    </ParameterInfo>
+    <ParameterInfo Name="Round Connector Dimension" Id="-1152375">
+      <BuiltinID>FAMILY_ROUNDCONNECTOR_DIMENSIONTYPE</BuiltinID>
+      <Group>PG_GEOMETRY</Group>
+      <Storage>Integer</Storage>
+    </ParameterInfo>
+    <ParameterInfo Name="Shared" Id="-1012834">
+      <BuiltinID>FAMILY_SHARED</BuiltinID>
+      <Type>YesNo</Type>
+      <Storage>Integer</Storage>
+    </ParameterInfo>
+    <ParameterInfo Name="Supply Air Height" Id="86512">
+      <Type>HVACDuctSize</Type>
+      <Storage>Double</Storage>
+      <Unit>Fractional inches</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Supply Air Width" Id="86513">
+      <Type>HVACDuctSize</Type>
+      <Storage>Double</Storage>
+      <Unit>Fractional inches</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Type Comments" Id="-1010105">
+      <BuiltinID>ALL_MODEL_TYPE_COMMENTS</BuiltinID>
+      <Group>PG_IDENTITY_DATA</Group>
+      <Type>Text</Type>
+      <Storage>String</Storage>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Type Image" Id="-1152384">
+      <BuiltinID>ALL_MODEL_TYPE_IMAGE</BuiltinID>
+      <Group>PG_IDENTITY_DATA</Group>
+      <Type>Image</Type>
+      <Storage>ElementId</Storage>
+    </ParameterInfo>
+    <ParameterInfo Name="Unit Weight" Id="86506">
+      <Group>PG_IDENTITY_DATA</Group>
+      <Type>Force</Type>
+      <Storage>Double</Storage>
+      <Unit>Pounds</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="URL" Id="-1010104">
+      <BuiltinID>ALL_MODEL_URL</BuiltinID>
+      <Group>PG_IDENTITY_DATA</Group>
+      <Type>URL</Type>
+      <Storage>String</Storage>
+    </ParameterInfo>
+    <ParameterInfo Name="Voltage" Id="86502">
+      <Group>PG_AELECTRICAL</Group>
+      <Type>ElectricalPotential</Type>
+      <Storage>Double</Storage>
+      <Unit>Volts</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Width" Id="86516">
+      <Group>PG_GEOMETRY</Group>
+      <Type>Length</Type>
+      <Storage>Double</Storage>
+      <Unit>Decimal inches</Unit>
+      <CanAssignFormula>true</CanAssignFormula>
+    </ParameterInfo>
+    <ParameterInfo Name="Work Plane-Based" Id="-1012833">
+      <BuiltinID>FAMILY_WORK_PLANE_BASED</BuiltinID>
+      <Type>YesNo</Type>
+      <Storage>Integer</Storage>
+    </ParameterInfo>
+  </Parameters>
+  <Type>Family</Type>
+</FamilyInfo>
