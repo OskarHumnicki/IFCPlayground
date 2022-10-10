@@ -17,8 +17,7 @@ console.log(viewer)
 
 async function loadIfc(url) {
     const model = await viewer.IFC.loadIfcUrl(url);
-    await viewer.shadowDropper.renderShadow(model.modelID);
-    console.log(model)
+    //await viewer.shadowDropper.renderShadow(model.modelID);
     return model;
 }
 
