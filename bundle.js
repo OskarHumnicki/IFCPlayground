@@ -122408,5 +122408,5 @@ function makeTextq(text)
 }
 
 
-loadIfcs(urlarray);
 makeTextq('Label');
+loadIfcs(urlarray);
