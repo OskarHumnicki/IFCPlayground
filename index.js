@@ -26,6 +26,7 @@ const urlarray =
     'assets/Heat Pump-Horizontal-Elec Heated-Carrier-Packaged-0.5-6 tons.ifc',
     'assets/Fan Coil-ACME-1.5-2.5 ton-FC1525Z.ifc',
     'assets/Heat Pump-Vertical-Carrier-Packaged-Dual Blower-17.5-30 tons.ifc',
+    'ifcexportproject.ifc',
     ];
 
 async function loadIfcs(urls) {
