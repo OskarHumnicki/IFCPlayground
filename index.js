@@ -46,7 +46,7 @@ async function loadIfcs(urls) {
 }
 
 
-function makeTextq(text)
+function makeText(text)
 {
     let loader = new FontLoader();
     loader.load('assets/fonts/helvetiker_regular.typeface.json', font => {
@@ -72,5 +72,5 @@ function makeTextq(text)
 }
 
 
-makeTextq('Label');
+makeText('Label');
 loadIfcs(urlarray);
